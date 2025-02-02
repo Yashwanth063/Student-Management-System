@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information System</title>
+    
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+
+<body>
+    <h1>Student Information System</h1>
+    <div class="formdiv">
+   <form autocomplete="off" id="frm">
+        <div class="form-grp">
+            <input type="hidden" id="id">
+            <label for="fname">Name</label> <input type="text"  id="fname" placeholder="name">
+            <label for="email">Email</label>  <input type="email" id="email" placeholder="email">  
+            <label for="year">Year</label>  <input type="text" id="year" placeholder="year">  
+            <label for="city">City</label>  <input type="text" id="city" placeholder="city">  
+            <label for="Age">Cgpa</label>  <input type="number" id="cgpa" placeholder="cgpa"> 
+            <br>
+          <button type="submit" id="save-btn"><ion-icon name="save"></ion-icon> Save</button> 
+        </div>  
+    </form>
+</div>
+<br> <br>
+<center><h2 style="color: rgb(164, 146, 232);text-shadow: 2px 2px;">STUDENT DETAILS</h2></center>
+<div class="tablediv">
+    <table border="2"  class="table">
+        <thead>
+           <th>S.No</th> <th>Name</th> <th>Email</th>  <th>Year</th> <th>City</th> <th>Cgpa</th> <th>Edit</th> <th>Delete</th>
+        </thead>
+        
+        <tbody id="tbody">
+
+        </tbody>
+      </table>
+</div>
+<br> <br>
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js" type="module"></script>
+</body>
+</html>
