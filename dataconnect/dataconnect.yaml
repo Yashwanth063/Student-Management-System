@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "studentmanagementsystem"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "studentmanagementsystem-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

@@ -1,0 +1,111 @@
+        
+        body{
+            background-color:rgba(22, 38, 53, 0.993);
+        }
+
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 0;
+        }
+        h1{
+            color: orangered;
+            text-align: center;
+        }
+        body{
+            height: 100vh;
+        }
+
+        .formdiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            width: 350px;
+            height: 450px;
+            background-color: rgb(248, 248, 198);
+            border-radius: 20px;
+            opacity: 0.9;
+        }
+        
+        form:hover{
+            opacity: 1;
+            box-shadow: 10px 10px 10px rgb(116, 193, 240);
+        }
+
+        form label,input{
+            margin-top: 8px;
+        }
+
+        form input{
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        form label{
+            color: darkred;
+            font-weight:bold;
+            font-size: large;
+            text-transform:uppercase;
+        }
+
+        form button{
+            background-color: limegreen;
+            width: 90px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        form .form-grp{
+            width: 270px;
+            display:flex;
+            flex-direction: column;
+            margin: 20px;
+            padding: 25px 5px 10px 10px;
+        }
+
+        .tablediv{
+            display: flex;
+            justify-content: center;
+        }
+        .table{
+            width: 800px;
+            border-collapse: collapse;
+        }
+        tr{
+            color: azure;
+            border-bottom: 2px solid lightseagreen;
+        }
+
+        thead th{
+            padding: 5px;
+            color: darkred;
+            background-color: darkorange;
+        }
+        
+        tbody tr:hover{
+            background-color: lightgrey;
+            color: black;
+            cursor: pointer;
+            border-bottom: 2px solid rgba(227, 233, 232, 0.825);
+        }
+        td{
+            padding: 10px;
+            text-align: center;
+        }
+        .table .editbtn{
+            font-size: large;
+            background-color: orange;
+        }
+        .deletebtn{
+            font-size: large;
+            background-color:red;  
+        }
+        .editbtn ion-icons , .deletebtn ion-icons{
+            pointer-events: none;
+        }
+        #save-btn{
+            padding: auto;
+            text-align: center;
+            }
